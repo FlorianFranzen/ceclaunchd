@@ -3,7 +3,7 @@ CFLAGS=-c -std=gnu99 -g -Wall
 LDFLAGS=-lcec -ldl
 EXECUTABLE=ceclaunchd
 
-SOURCES=ceclaunchd.c
+SOURCES=ceclaunchd.c log.c
 OBJECTS=$(SOURCES:.c=.o)
 
 all: $(SOURCES) $(EXECUTABLE)
